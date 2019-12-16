@@ -1,0 +1,4 @@
+AuthName "Administracao do site - Os esdruxulos"
+AuthType Basic
+AuthUserFile "/xampp/htdocs/os_esdruxulos/admin/users"
+require valid-user

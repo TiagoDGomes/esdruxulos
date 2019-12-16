@@ -1,0 +1,19 @@
+/* 
+    Document   : 
+    Created on : 
+    Author     : Hellynson
+
+*/
+
+
+#mestreDoMorro {
+	width: 200px;
+	position: relative;
+	float: left;
+}
+#mestreDoMorro sub {
+   text-align: center;
+   width: 100%;
+   position: relative;
+
+}

@@ -1,0 +1,16 @@
+body{
+    margin: 0px;
+    font-size: 12pt;
+}
+#dMain {
+    font-family: Arial;
+}
+#dlMenu *{
+    display: inline;
+    padding: 0;
+}
+
+#dMenu dt{
+    padding: 1em;
+}
+

@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <title>Sobre</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Site</h1>
+        <h2>PHP</h2>
+        <p>
+            PHP é uma linguagem de programação interpretada, desenvolvida para uso principalmente em sites World Wide Web
+        </p>
+        <h3>Caracteristicas do PHP</h3>
+        <ul>
+            <li>Velocidade e robustez </li>
+            <li>Estruturado e orientação a objeto  </li>
+            <li>Portabilidade - independência de plataforma - escreva uma vez, rode em qualquer lugar;  </li>
+            <li>Tipagem fraca  </li>
+            <li>Sintaxe similar a Linguagem C/C++ e o PERL </li>
+        </ul>
+        <p>Em junho de 2004 foi lançada a versão 5 do PHP, introduzindo um novo modelo de orientação a objeto,
+            incluindo a reformulação dos construtores e adição de destrutores (ver exemplo contextualizado em anexo),
+            visibilidade de acesso, abstração de objeto e interfaces de objetos.
+        </p>
+        <h3>Comparação com outras linguagens:</h3>
+        <table border="1">
+            <tr><th>&nbsp;</th>
+                <th>Java</th>
+                <th>C</th>
+                <th>PHP</th>
+            </tr>
+            <tr>
+                <th>Modelo de execução</th>
+                <td>Interpretação e Compilação</td>
+                <td>Compilação</td>
+                <td>Interpretação</td>
+
+            </tr>
+            <tr>
+                <th>Paradigma principal</th>
+                <td>Orientada a objeto</td>
+                <td>Estruturada, Procedimental, Orientada por fluxo</td>
+                <td>Orientada a objeto</td>
+            </tr>
+            <tr>
+                <th>Modelo de tipo de dados</th>
+                <td>Estático, fraco</td>
+                <td>Estático, forte</td>
+                <td>Dinâmico</td>
+            </tr>
+
+        </table>
+        <h3>Comparação de códigos com outras linguagens:</h3>
+        <h4>Criar uma variável</h4>
+        <p>Java:<br> 
+            <pre>String variavel="Hello world";</pre>
+        </p>
+        <p>PHP :<br> 
+            <pre>
+$variavel="Hello world";,
+            </pre>
+        </p>
+
+        <h4>Declarar uma classe</h4>
+        <p>Java:<br>
+            <pre>
+class MinhaClasse{
+     private String variavel;
+     public int numero;
+     public void metodo(String argumento){
+
+     }
+     public String metodo2(){
+        return umaStringQualquer;
+     }
+}
+            </pre>
+        </p>
+        <p>PHP:<br>
+            <pre>
+class MinhaClasse{
+     private $variavel;
+     public $numero;
+     public function metodo($argumento){
+
+     }
+     public function metodo2(){
+        return $qualquerCoisa;
+     }
+}
+            </pre>
+        </p>
+        <h2>Outras características</h2>
+        <p>
+            Uma característica do PHP é em relação a arrays.
+            Podemos ter arrays do tipo <code>$a[0]="banana" , $a[1]="alface"</code>,
+            como também arrays como <code>$a["fruta"]="banana"; $a["verdura"]="alface"</code>.
+            Assim, podemos definir chaves de arrays com nome que quiser. Além disso, são arrays dinâmicos,
+            ou seja, são arrays que não tem tamanho fixo, que varia conforme o programador precise.
+
+        <p>
+            Outra característica do PHP é o suporte nativo para acesso a vários tipos
+            de banco de dados, como MySQL, mSQL, Firebird, entre outros. O PHP possui funções
+            e classes para o suporte a estes banco de dados, e sem muitas complicações para utilizá-las.
+            
+        </p>
+        <h2>Nosso sistema</h2>
+        <p>
+            O nosso sistema utiliza a característica do array com chaves nomeadas para armazenar os dados que vêm do
+            banco de dados. Como o resultado das consultas dos bancos retorna uma array com colunas e seus nomes,
+            isso é bastante util, pois todos os valores dos atributos básicos das classes
+            são armazenados um único array, e são as funções getters e setters que tem
+            o trabalho de transformar em objetos os atributos que estão armazenados em variáveis simples, como IDs.
+        </p>
+        <p>
+            Uma das grandes dificuldades para implantar o suporte ao banco de dados ao
+            site foi a precariedade em frameworks que se adequa a orientação a objetos no PHP.
+            O projeto <a href="http://www.hufersil.com.br/lumine">Lumine</a> é um dos poucos que tem essa funcionalidade. Um projeto brasileiro que segue a linha
+            de racionício do Hibernate do Java. Porém, como a documentação do Lumine estava incompleta,
+            necessitávamos criar a nossa própria classe que integrava ao banco de dados.
+            Basicamente, tivemos que fazer como se faz com o JDBC em Java, ou seja, na "unha".
+        </p>
+
+    </body>
+</html>

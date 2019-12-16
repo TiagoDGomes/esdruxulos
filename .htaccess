@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)\.html$ index.php?url=$1
+RewriteRule ^pagina/(.*)$ imgHistoria.php?url=$1
+RewriteRule ^admin$ admin.php
+RewriteRule ^rss/(.*).rss$ rss.php?url=$1
+RewriteRule ^personagem/img/(.*)$ imgPersonagem.php?url=$1
+RewriteRule ^xampp/(.*)$ /xampp/htdocs/xampp
+RewriteRule ^(.*)\.htx$ i.php?url=$1
+
+
+

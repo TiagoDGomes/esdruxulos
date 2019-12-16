@@ -1,0 +1,5 @@
+#dBusca,#dMensagemBemVindo, #dMenu, #historia .dNavegacao {
+    display: none;
+}
+#dRodape{text-align:center;}
+#dRodape address{position:absolute;bottom:0px;left:0;}

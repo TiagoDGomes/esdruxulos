@@ -1,0 +1,14 @@
+
+p, table, address{
+    font-size: 10pt;
+}
+
+#dFormulario .itensCadastro{
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+fieldset{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+

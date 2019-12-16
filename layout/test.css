@@ -1,0 +1,6 @@
+div, #dMenu li, h1, h2, address,sub{
+    border: 0px dotted black;
+}
+li a{
+    width: 500px;
+}

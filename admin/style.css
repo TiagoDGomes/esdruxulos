@@ -1,0 +1,150 @@
+
+
+body{
+
+    font-family: Arial,Helvetica,sans-serif;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-top-style: none;
+    margin: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 9pt;
+
+}
+.menu h1 a:hover{
+    text-decoration: underline;
+}
+address{
+
+    margin-bottom:30px;
+    clear:both;
+    border-width: 1px;
+    text-align: center;
+
+}
+#tituloPrincipal{
+    
+    background-color: #0066ff;
+    text-align: right;
+    vertical-align: middle;
+    border-right-style: inherit;
+    border-left-style: inherit;
+    border-bottom-style: inherit;
+    border-top-style: inherit;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    top: 0px;
+    background-image:url(img/display_fun.png);
+    background-repeat:no-repeat;
+    height:100px;
+
+}
+#main{
+
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    width: 1000px;
+    
+}
+h2{
+}
+#conteudo{
+    float: right;
+    width: 690px;
+
+    padding: 10px;
+    margin-top: 10px;
+}
+address , #menu{
+
+
+}
+h1 a{
+    text-decoration: none; 
+    color:black; 
+}
+#menu{
+    margin-top: 10px;
+    float:left;
+    border-right-width: 1px;
+    border-right: 1px solid orange;
+
+}
+ul{
+    padding-bottom:1em;
+}
+li{
+    list-style-type:none;
+    padding:0.1em;
+}
+li a{
+    text-decoration:none;
+    color:blue;
+}
+li a:hover{
+    text-decoration:underline;
+}
+td {
+    vertical-align: top;
+}
+#user{
+    list-style-image:url(img/user_go.png);
+}
+#admin{
+    list-style-image:url(img/shield_go.png);
+}
+#admin .edit{
+    list-style-image:url(img/shield_add.png)
+}
+#historia{
+    list-style-image:url(img/page.png)
+}
+#historia .novo{
+    list-style-image:url(img/page_new.gif)
+}
+#historia .edit{
+    list-style-image:url(img/page_edit.png)
+}
+#historia .excluir{
+    list-style-image:url(img/page_text_delete.gif)
+}
+
+#propaganda{
+    list-style-image:url(img/money.png)
+}
+#personagem{
+    list-style-image:url(img/smiley_cool.png)
+}
+#preferencia{
+    list-style-image:url(img/star.gif)
+}
+#anunciante{
+    list-style-image:url(img/user_business.png)
+}
+#opcoes{
+    list-style-image:url(img/wrench_orange.png)
+}
+.inline div{
+    float: left;
+
+}
+inline * fieldset{
+    padding:25px;
+}
+.botoesMover{
+
+    padding: 15px;
+    padding-top: 25px;
+
+}
